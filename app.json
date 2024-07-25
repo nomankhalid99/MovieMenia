@@ -2,8 +2,9 @@
   "expo": {
     "name": "movie-menia",
     "slug": "movie-menia",
+    "sdkVersion": "49.0.0",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -20,11 +21,23 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#333333"
+      },
+      "package": "com.noman_99.moviemenia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "619d929a-8743-4ad1-9f0d-999d487b7fa1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/619d929a-8743-4ad1-9f0d-999d487b7fa1"
     }
   }
 }
